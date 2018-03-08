@@ -5,9 +5,9 @@
       <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-  <title>Aquabrand</title>
+
+  <title>За нас</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -69,9 +69,9 @@
     <p class="nav-label">Меню</p>
     <ul>
 
-              <li role="presentation"><a href="/about-us.html">За нас</a></li>
-              <li role="presentation"><a href="/Contacts.html">Контакти</a></li>
-              <li role="presentation"><a href="/Products.html">Продукти</a></li>
+              <li class="nav-about-us active" role="presentation"><a href="/about-us">За нас</a></li>
+              <li role="presentation"><a href="/Contacts">Контакти</a></li>
+              <li role="presentation"><a href="/Products">Продукти</a></li>
 
     </ul>
   </div>
@@ -81,13 +81,15 @@
     <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
-
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="/" title="Home"><i class="ic ic-arrow-left"></i> Начало</a>
+            </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Меню</a>
           </span>
         </nav>
-        <h1 class="post-title">Aquabrand</h1>
-            <div class="post-cover cover" style="background-image: url('/theme/images/home-bg.jpg')">
+        <h1 class="post-title">За нас</h1>
+            <div class="post-cover cover" style="background-image: url('/theme/images/post-bg.jpg')">
       </div>
     </header>
 
@@ -98,8 +100,7 @@
       <article class="post">
       <div class="inner">
           <section class="post-content">
-              <p><img alt="Logo" src="images/logo.jpg"></p>
-<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again. And if she hasn’t been rewritten, then they are still using her.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline</p>
+              <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again. And if she hasn’t been rewritten, then they are still using her.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline</p>
           </section>
       </div>
       </article>
@@ -110,6 +111,10 @@
     <footer id="footer">
       <div class="inner">
         <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
         </section>
       </div>
     </footer>
